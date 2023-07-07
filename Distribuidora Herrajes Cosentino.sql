@@ -1,7 +1,7 @@
 CREATE TABLE `clientes`(
 	id int(4),
 	nombre varchar(45),
-    localidad varchar(3),
+    localidad varchar(15),
     PRIMARY KEY (`id`));
     
     CREATE TABLE `localidades`(
@@ -120,7 +120,7 @@ VALUES (1,'bisagra t/munic carp zink amar 100*88 d/c','Talleres Fumaca'),
 	(2,'bisagras 5005 nacion bronceadas 101m','Talleres Fumaca'),			
 	(3,'bisagras mosqueras blanca c/u','Talleres Fumaca'),			
 	(4,'bisagras 5005 nacion bronceadas 101m','Talleres Fumaca'),			
-	(5,'bisagras 5005 chinas pulidas 88m'.'Talleres Fumaca'),			
+	(5,'bisagras 5005 chinas pulidas 88m','Talleres Fumaca'),			
 	(6,'bisagras 5005 chinas bronceado 50m','Talleres Fumaca'),			
 	(7,'bisagras 5005 nacionales pulidas 38m','Talleres Fumaca'),			
 	(8,'bisagras mosqueras negra c/u','Talleres Fumaca'),			
